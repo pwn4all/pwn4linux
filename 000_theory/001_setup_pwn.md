@@ -12,6 +12,7 @@ PasswordAuthentication yes
 .
 .
 $ sudo systemctl restart ssh
+$ sudo systemctl enable ssh.service
 
 
 $ sudo vi /etc/vim/vimrc
