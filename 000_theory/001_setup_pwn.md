@@ -1,9 +1,9 @@
 # 구축 환경(Linux Environment) : Ubuntu 22.04 (python3.10)
 
-```markdown
+
 #### 이 문서에는 실습에서 사용할 환경 구축에 대해 설명합니다. 복사&붙여넣기로 동일하게 환경을 만드실 수 있습니다.
 #### This document describes the environment setup to be used in the practice. You can create the same environment by copy & pasting.
-```
+
 
 ##### 기본 업데이트(update ubuntu packages)
 ```bash
