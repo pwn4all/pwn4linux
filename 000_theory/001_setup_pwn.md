@@ -1,6 +1,9 @@
-# 구축 환경 : Ubuntu 22.04 (python3.10)
+# 구축 환경(Linux Environment) : Ubuntu 22.04 (python3.10)
 
-##### 기본 업데이트
+#### 이 문서에는 실습에서 사용할 환경 구축에 대해 설명합니다. 복사&붙여넣기로 동일하게 환경을 만드실 수 있습니다.
+#### This document describes the environment setup to be used in the practice. You can create the same environment by copy & pasting.
+
+##### 기본 업데이트(update ubuntu packages)
 ```bash
 $ sudo apt update
 $ sudo apt install vim
@@ -26,7 +29,7 @@ set expandtab
 ```
 
 
-##### 기본 패키지
+##### 기본 패키지(update default packages)
 ```bash
 $ sudo apt install gcc gcc-multilib gdb gdb-multiarch python3 python3-pip python3-dev git libffi-dev build-essential
 ```
@@ -55,7 +58,7 @@ $ wget -O gdbinit-gef.py -q https://gef.blah.cat/py
 $ echo "source /utils/peda/peda.py" >> ~/.gdbinit
 ```
 
-##### 기타 유틸
+##### 기타 유틸(etc utils)
 ```bash
 $ pip install pwntools
 $ pip install ROPgadget
